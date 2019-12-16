@@ -1,5 +1,6 @@
 #!/usr/bin/php
 <?php 
+//if using app via terminal add '#!/usr/bin/php' in the start of any relevant file
 if (php_sapi_name() !== 'cli')
 {
     die;
